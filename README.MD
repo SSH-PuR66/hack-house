@@ -2,6 +2,12 @@
 
 # hack-house
 
+**Fork and integration work maintained by [Sergio Rodriguez (SSH-PuR66)](https://github.com/SSH-PuR66).**
+
+Built on [diorwave/cmd-chat](https://github.com/diorwave/cmd-chat). The upstream chat project and its contributors retain their authorship; this repository presents the hack-house shared terminal and sandbox integration.
+
+**A room becomes a shared machine.** Inspect the [Rust client](hh/), [Python server](cmd_chat/), and [bootstrap script](hh/scripts/bootstrap.sh). `bash hh/scripts/bootstrap.sh --check` reports prerequisites without installing the stack. [Original license](LICENSE).
+
 ### encrypted collaborative terminal sessions with a summoned sandbox
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
